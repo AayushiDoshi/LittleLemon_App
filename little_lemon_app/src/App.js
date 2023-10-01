@@ -1,12 +1,12 @@
 import "./App.css";
-import About from "./components/About/About";
-import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
-import Nav from "./components/Nav/Nav";
+import About from "./Components/About/About";
+import Footer from "./Components/Footer/Footer";
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
+import Nav from "./Components/Nav/Nav";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Specials from "./components/Specials/Specials";
-import BookingPage from "./components/BookingPage/BookingPage";
+import Specials from "./Components/Specials/Specials";
+import BookingPage from "./Components/BookingPage/BookingPage";
 
 function App() {
   const homeHeader = {

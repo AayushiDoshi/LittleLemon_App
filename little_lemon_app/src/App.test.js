@@ -1,9 +1,6 @@
 import { render, screen } from "@testing-library/react";
-import BookingPage from "./components/BookingPage/BookingPage";
-import {
-  initializeTimes,
-  updateTimes,
-} from "./components/BookingPage/BookingPage";
+import BookingPage from "./Components/BookingPage/BookingPage";
+import { initializeTimes } from "./Components/BookingPage/BookingPage";
 
 test("Renders BookingPage heading", () => {
   render(<BookingPage />);
